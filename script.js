@@ -176,11 +176,11 @@ const startGame = () => {
   // elmSoundGameclear.id = 'gameclear';
   // document.getElementsByTagName('body')[0].appendChild(elmSoundGameclear);
 
-  // let elmMainSE = document.createElement('audio');
-  // elmMainSE.setAttribute('src', 'sounds/sound-effect/se_maoudamashii_system37.mp3');
-  // elmMainSE.volume = 0.2;
-  // elmMainSE.id = 'se';
-  // document.getElementsByTagName('body')[0].appendChild(elmMainSE);
+  let elmMainSE = document.createElement('audio');
+  elmMainSE.setAttribute('src', 'sounds/sound-effect/se_maoudamashii_system37.mp3');
+  elmMainSE.volume = 0.2;
+  elmMainSE.id = 'se';
+  document.getElementsByTagName('body')[0].appendChild(elmMainSE);
 
 
 
