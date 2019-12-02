@@ -364,9 +364,9 @@ const endGame = () => {
   document.getElementById('bgm').pause();
   document.getElementById('gameclear').play();
 
-  elmTextArea.setAttribute('visible', 'false');
-  elmNextBtn.setAttribute('visible', 'false');
-  elmPersonArea.setAttribute('visible', 'false');
+  // elmTextArea.setAttribute('visible', 'false');
+  // elmNextBtn.setAttribute('visible', 'false');
+  // elmPersonArea.setAttribute('visible', 'false');
 
   let elmCongrats = document.createElement('a-text');
   elmCongrats.setAttribute('value', 'ゲームクリア！');
