@@ -206,6 +206,7 @@ const startGame = () => {
 
 // シーン切り替え
 const nextScene = () => {
+  console.log('Next Scene!');
   // 最後のシーンだったら（ゲームクリアしたら
   if (nowSceneNum - 1 === Object.keys(sceneConfig).length) {
     endGame();
