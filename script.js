@@ -350,6 +350,7 @@ const missionSuccess = () => {
 
   // nowSceneData.mission.num = null;
 
+  nowSceneNum++;
   nextScene()
 }
 
@@ -387,9 +388,9 @@ const endGame = () => {
 
 
 // 効果音
-// const playSE = () => {
-//   document.getElementById('playSE').play();
-// }
+const playSE = () => {
+  document.getElementById('playSE').play();
+}
 
 
 
