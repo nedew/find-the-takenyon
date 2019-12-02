@@ -221,12 +221,11 @@ const nextScene = () => {
     elmMissionTargetImg.setAttribute('src', 'images/target/'+nowSceneData.mission.targetImage);
     elmMissionTargetImg.setAttribute('position', nowSceneData.mission.imgPosition);
     elmMissionTargetImg.setAttribute('rotation', nowSceneData.mission.rotation);
-    elmMissionTargetImg.setAttribute('visible', 'true');
-
     // アスペクト比
     const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
     elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
     elmMissionTargetImg.setAttribute('height', arrayAspectRatio[1]);
+    elmMissionTargetImg.setAttribute('visible', 'true');
     
     // nextScenario();
   }
