@@ -334,6 +334,8 @@ const nextScene = () => {
 
 // ミッションを達成した時
 const missionSuccess = () => {
+  console.log('ミッションクリア！');
+
   // SE
   document.getElementById('se').play();
 
