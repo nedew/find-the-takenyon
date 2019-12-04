@@ -226,7 +226,7 @@ const nextScene = () => {
     elmMissionTargetImg.setAttribute('position', nowSceneData.mission.imgPosition);
     elmMissionTargetImg.setAttribute('rotation', nowSceneData.mission.rotation);
     // // アスペクト比
-    // const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
+    const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
     elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
     elmMissionTargetImg.setAttribute('height', arrayAspectRatio[1]);
     elmMissionTargetImg.setAttribute('visible', 'true');
