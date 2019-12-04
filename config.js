@@ -46,9 +46,9 @@ let sceneConfig = {
       num: 2,
       title: 'サルをみつけろ！',
       targetImage: 'take2-1-23.png',
-      imgPosition: '4.2 5 3.8',
-      rotation: '-20 55 0',
-      aspectRatio: '0.6:1'
+      imgPosition: '-4 5 3.8',
+      rotation: '-20 160 0',
+      aspectRatio: '0.7:1.18'
     }
   },
   scene4: {
@@ -61,9 +61,9 @@ let sceneConfig = {
       num: 2,
       title: 'サルのにがてなたべもの\n『トウガラシ』を買っていこう！',
       targetImage: 'take2-1-17.png',
-      imgPosition: '5 1 6.2',
-      rotation: '0 225 0',
-      aspectRatio: '0.7:1'
+      imgPosition: '5.4 -0.5 6.2',
+      rotation: '0 200 0',
+      aspectRatio: '0.8:1.2'
     }
   }
   // scene5: {
