@@ -392,6 +392,12 @@ const endGame = () => {
 
   elmScene.appendChild(elmCongrats);
   elmScene.appendChild(elmTakenokoImg);
+
+
+  // 15秒経過したらトップページへリダイレクト
+  setTimeout(() => {
+    location.href='/';
+  }, 15000);
 }
 
 
