@@ -218,10 +218,13 @@ const nextScene = () => {
     // 背景画像
     elmSky.setAttribute('src', 'images/background/'+nowSceneData.backgroundImage);
     // ミッション画像
+    elmMissionTargetImg = document.createElement('a-image');
+    elmMissionTargetImg.setAttribute('cursor-listener', 'missionSuccess()');
+    // elmMissionTargetImg.setAttribute('scale', '2 2 2');
+    elmMissionTargetImg.setAttribute('visible', 'false');
     elmMissionTargetImg.setAttribute('src', 'images/target/'+nowSceneData.mission.targetImage);
     elmMissionTargetImg.setAttribute('position', nowSceneData.mission.imgPosition);
     elmMissionTargetImg.setAttribute('rotation', nowSceneData.mission.rotation);
-    elmMissionTargetImg.setAttribute('material', 'shader:flat');
     // アスペクト比
     const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
     elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
