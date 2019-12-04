@@ -194,7 +194,7 @@ const startGame = () => {
   // elmMissionHeadline.appendChild(elmMissionHeadlineText);
   // elmScene.appendChild(elmMissionHeadline);
 
-  elmScene.appendChild(elmMissionTargetImg);
+  // elmScene.appendChild(elmMissionTargetImg);
 
   // elmScene.appendChild(elmPersonArea);
   
@@ -231,6 +231,7 @@ const nextScene = () => {
     elmMissionTargetImg.setAttribute('height', arrayAspectRatio[1]);
     elmMissionTargetImg.setAttribute('visible', 'true');
     
+    elmScene.appendChild(elmMissionTargetImg);
     // nextScenario();
   }
 }
