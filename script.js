@@ -127,7 +127,7 @@ const startGame = () => {
   // ミッションのターゲットになる画像
   elmMissionTargetImg = document.createElement('a-image');
   elmMissionTargetImg.setAttribute('cursor-listener', 'missionSuccess()');
-  // elmMissionTargetImg.setAttribute('scale', '2 2 2');
+  elmMissionTargetImg.setAttribute('scale', '4 4 4');
   elmMissionTargetImg.setAttribute('visible', 'false');
 
   // 話者の名前を表示する場所
