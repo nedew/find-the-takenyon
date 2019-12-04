@@ -381,7 +381,7 @@ const endGame = () => {
 
   elmSky.setAttribute('src', 'images/background/road.jpg');
 
-  // elmTextArea.setAttribute('visible', 'false');
+  elmTextArea.setAttribute('visible', 'false');
   // elmNextBtn.setAttribute('visible', 'false');
   // elmPersonArea.setAttribute('visible', 'false');
 
