@@ -368,7 +368,7 @@ const endGame = () => {
 
   elmSky.setAttribute('src', 'images/background/road.jpg');
 
-  elmSky.setAttribute('rotation', '90 0 0');
+  elmSky.setAttribute('rotation', '0 0 90');
 
   // elmTextArea.setAttribute('visible', 'false');
   // elmNextBtn.setAttribute('visible', 'false');
