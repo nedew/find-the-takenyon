@@ -12,7 +12,7 @@ let sceneConfig = {
     mission: {
       num: 2,
       title: 'たけにょんをみつけよう！',
-      targetImage: 'take2-1-08.png',
+      targetImage: 'take2-1-03.png',
       imgPosition: '4.5 1 -3',
       rotation: '0 -60 0',
       aspectRatio: '0.6:1' // width:height
@@ -29,10 +29,10 @@ let sceneConfig = {
     mission: {
       num: 2,
       title: '女の人にはなしをきいてみよう！',
-      targetImage: 'walking5_woman.png',
+      targetImage: 'take2-1-44.png',
       imgPosition: '-1.3 1.3 4',
       rotation: '0 -180 0',
-      aspectRatio: '0.73:1'
+      aspectRatio: '0.6:1'
     }
   },
   scene3: {
@@ -45,10 +45,10 @@ let sceneConfig = {
     mission: {
       num: 2,
       title: 'サルをみつけろ！',
-      targetImage: 'animal_monkey_kinobori.png',
+      targetImage: 'take2-1-23.png',
       imgPosition: '4.2 5 3.8',
       rotation: '-20 55 0',
-      aspectRatio: '1.2:1.2'
+      aspectRatio: '0.6:1'
     }
   },
   scene4: {
@@ -60,10 +60,10 @@ let sceneConfig = {
     mission: {
       num: 2,
       title: 'サルのにがてなたべもの\n『トウガラシ』を買っていこう！',
-      targetImage: 'tougarashi_redpepper_text.png',
+      targetImage: 'take2-1-17.png',
       imgPosition: '5 1 6.2',
       rotation: '0 225 0',
-      aspectRatio: '1.4:1.4'
+      aspectRatio: '0.7:1'
     }
   }
   // scene5: {
