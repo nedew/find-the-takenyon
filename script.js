@@ -41,9 +41,7 @@ const getImg = () => {
     imagesUrl.push('images/background/' + scene.backgroundImage);
     imagesUrl.push('images/target/' + scene.mission.targetImage);
   }
-  // for (let i = 0; i < Object.keys(personConfig).length; i++) {
-  //   imagesUrl.push('images/person/' + personConfig[i].img);
-  // }
+
   imagesUrl.push('images/other/take2-1-07.png');
 
   let images = new Array(imagesUrl.length)
