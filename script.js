@@ -396,7 +396,7 @@ const endGame = () => {
 
   // 15秒経過したらトップページへリダイレクト
   setTimeout(() => {
-    location.href='/';
+    location.href='/find-the-takenyon';
   }, 15000);
 }
 
