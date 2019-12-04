@@ -229,6 +229,8 @@ const nextScene = () => {
     // const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
     // elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
     // elmMissionTargetImg.setAttribute('height', arrayAspectRatio[1]);
+    elmMissionTargetImg.setAttribute('width', '0.6');
+    elmMissionTargetImg.setAttribute('height', '1');
     elmMissionTargetImg.setAttribute('visible', 'true');
     
     // elmScene.appendChild(elmMissionTargetImg);
