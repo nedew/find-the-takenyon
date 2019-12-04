@@ -32,7 +32,7 @@ let sceneConfig = {
       targetImage: 'take2-1-44.png',
       imgPosition: '-4 1.3 5',
       rotation: '0 140 0',
-      aspectRatio: '0.6:1'
+      aspectRatio: '0.5:0.8'
     }
   },
   scene3: {
@@ -61,8 +61,8 @@ let sceneConfig = {
       num: 2,
       title: 'サルのにがてなたべもの\n『トウガラシ』を買っていこう！',
       targetImage: 'take2-1-17.png',
-      imgPosition: '5.4 -0.5 6.2',
-      rotation: '0 200 0',
+      imgPosition: '5 -0.7 5.7',
+      rotation: '0 215 0',
       aspectRatio: '0.8:1.2'
     }
   }
