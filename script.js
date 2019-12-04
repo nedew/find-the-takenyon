@@ -83,6 +83,8 @@ const startGame = () => {
   // Remove elements in #display-area
   removeElms(document.querySelectorAll('.toppage-elm'));
 
+  elmSky.setAttribute('rotation', '0 -94 0');
+
   // セリフ等テキストの表示エリア
   elmTextArea = document.createElement('a-entity');
   elmTextArea.id = 'text-area';
@@ -367,8 +369,6 @@ const endGame = () => {
   document.getElementById('gameclear').play();
 
   elmSky.setAttribute('src', 'images/background/road.jpg');
-
-  elmSky.setAttribute('rotation', '0 0 90');
 
   // elmTextArea.setAttribute('visible', 'false');
   // elmNextBtn.setAttribute('visible', 'false');
