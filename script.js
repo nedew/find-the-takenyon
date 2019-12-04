@@ -221,7 +221,7 @@ const nextScene = () => {
     elmMissionTargetImg.setAttribute('src', 'images/target/'+nowSceneData.mission.targetImage);
     elmMissionTargetImg.setAttribute('position', nowSceneData.mission.imgPosition);
     elmMissionTargetImg.setAttribute('rotation', nowSceneData.mission.rotation);
-    elmMissionTargetImg.setAttribute('shader', 'flat');
+    elmMissionTargetImg.setAttribute('material', 'shader:flat');
     // アスペクト比
     const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
     elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
