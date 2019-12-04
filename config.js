@@ -46,8 +46,8 @@ let sceneConfig = {
       num: 2,
       title: 'サルをみつけろ！',
       targetImage: 'take2-1-23.png',
-      imgPosition: '2 3.6 -5',
-      rotation: '0 0 0',
+      imgPosition: '2.4 3.6 -5',
+      rotation: '0 -20 0',
       aspectRatio: '0.6:1'
     }
   },
