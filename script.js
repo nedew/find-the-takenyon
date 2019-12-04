@@ -86,11 +86,11 @@ const startGame = () => {
   removeElms(document.querySelectorAll('.toppage-elm'));
 
   // セリフ等テキストの表示エリア
-  // elmTextArea = document.createElement('a-entity');
-  // elmTextArea.id = 'text-area';
-  // elmTextArea.setAttribute('geometry', 'primitive: plane; width: 5.3; height: 2');
-  // elmTextArea.setAttribute('material', 'color: black; opacity: 0.6');
-  // elmTextArea.setAttribute('position', '0 -0.1 -5');
+  elmTextArea = document.createElement('a-entity');
+  elmTextArea.id = 'text-area';
+  elmTextArea.setAttribute('geometry', 'primitive: plane; width: 5.3; height: 2');
+  elmTextArea.setAttribute('material', 'color: black; opacity: 0.6');
+  elmTextArea.setAttribute('position', '0 -0.1 -5');
 
   // 「次へ」ボタン
   // elmNextBtn = document.createElement('a-entity');
@@ -186,7 +186,7 @@ const startGame = () => {
 
   // それぞれ子要素に追加
   // elmTextArea.appendChild(elmText);
-  // elmScene.appendChild(elmTextArea);
+  elmScene.appendChild(elmTextArea);
 
   // elmNextBtn.appendChild(elmNextBtnText);
   // elmScene.appendChild(elmNextBtn);
@@ -227,10 +227,8 @@ const nextScene = () => {
     elmMissionTargetImg.setAttribute('rotation', nowSceneData.mission.rotation);
     // // アスペクト比
     // const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
-    // elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
-    // elmMissionTargetImg.setAttribute('height', arrayAspectRatio[1]);
-    elmMissionTargetImg.setAttribute('width', '2');
-    elmMissionTargetImg.setAttribute('height', '1');
+    elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
+    elmMissionTargetImg.setAttribute('height', arrayAspectRatio[1]);
     elmMissionTargetImg.setAttribute('visible', 'true');
     
     // elmScene.appendChild(elmMissionTargetImg);
