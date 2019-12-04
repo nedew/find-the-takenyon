@@ -30,8 +30,8 @@ let sceneConfig = {
       num: 2,
       title: '女の人にはなしをきいてみよう！',
       targetImage: 'take2-1-44.png',
-      imgPosition: '-1.3 1.3 0',
-      rotation: '0 -90 0',
+      imgPosition: '-4 1.3 5',
+      rotation: '0 110 0',
       aspectRatio: '0.6:1'
     }
   },
