@@ -368,6 +368,8 @@ const endGame = () => {
   document.getElementById('bgm').pause();
   document.getElementById('gameclear').play();
 
+  elmSky.setAttribute('src', 'images/background/road.jpg');
+
   // elmTextArea.setAttribute('visible', 'false');
   // elmNextBtn.setAttribute('visible', 'false');
   // elmPersonArea.setAttribute('visible', 'false');
