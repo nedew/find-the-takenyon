@@ -127,7 +127,7 @@ const startGame = () => {
   // ミッションのターゲットになる画像
   elmMissionTargetImg = document.createElement('a-image');
   elmMissionTargetImg.setAttribute('cursor-listener', 'missionSuccess()');
-  elmMissionTargetImg.setAttribute('scale', '4 4 4');
+  elmMissionTargetImg.setAttribute('scale', '2 2 2');
   elmMissionTargetImg.setAttribute('visible', 'false');
 
   // 話者の名前を表示する場所
@@ -220,7 +220,7 @@ const nextScene = () => {
     // ミッション画像
     elmMissionTargetImg.setAttribute('src', 'images/target/'+nowSceneData.mission.targetImage);
     elmMissionTargetImg.setAttribute('position', nowSceneData.mission.imgPosition);
-    elmMissionTargetImg.setAttribute('rotation', nowSceneData.mission.rotation);
+    // elmMissionTargetImg.setAttribute('rotation', nowSceneData.mission.rotation);
     // アスペクト比
     const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
     elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
