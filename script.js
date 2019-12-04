@@ -127,8 +127,7 @@ const startGame = () => {
   // ミッションのターゲットになる画像
   elmMissionTargetImg = document.createElement('a-image');
   elmMissionTargetImg.setAttribute('cursor-listener', 'missionSuccess()');
-  // elmMissionTargetImg.setAttribute('scale', '2 2 2');
-  elmMissionTargetImg.setAttribute('src', 'images/target/take2-1-08.png');
+  elmMissionTargetImg.setAttribute('scale', '2 2 2');
   elmMissionTargetImg.setAttribute('visible', 'false');
 
   // 話者の名前を表示する場所
@@ -222,6 +221,7 @@ const nextScene = () => {
     elmMissionTargetImg.setAttribute('src', 'images/target/'+nowSceneData.mission.targetImage);
     elmMissionTargetImg.setAttribute('position', nowSceneData.mission.imgPosition);
     elmMissionTargetImg.setAttribute('rotation', nowSceneData.mission.rotation);
+    elmMissionTargetImg.setAttribute('shader', 'flat');
     // アスペクト比
     const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
     elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
