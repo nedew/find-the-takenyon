@@ -127,7 +127,7 @@ const startGame = () => {
   // ミッションのターゲットになる画像
   elmMissionTargetImg = document.createElement('a-image');
   elmMissionTargetImg.setAttribute('cursor-listener', 'missionSuccess()');
-  elmMissionTargetImg.setAttribute('scale', '2 2 2');
+  // elmMissionTargetImg.setAttribute('scale', '2 2 2');
   elmMissionTargetImg.setAttribute('src', 'images/target/take2-1-08.png');
   elmMissionTargetImg.setAttribute('visible', 'false');
 
