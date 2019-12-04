@@ -95,10 +95,10 @@ const startGame = () => {
   elmMainText =  document.createElement('a-text');
   elmMainText.setAttribute('color', 'orange');
   elmMainText.setAttribute('font', fonts.main);
-  elmMainText.setAttribute('width', '6');
+  elmMainText.setAttribute('width', '7');
   elmMainText.setAttribute('negate', 'false');
   elmMainText.setAttribute('align', 'center');
-  elmMainText.setAttribute('value', 'たけにょんを見つけよう!\n後ろや上にいることも...?');
+  elmMainText.setAttribute('value', 'たけにょんを見つけよう!\nうしろ、うえにいることも...?');
   elmMainText.setAttribute('position', '0 0 0.1');
   // elmMainText.id = 'mission-title';
   elmTextArea.appendChild(elmMainText);
