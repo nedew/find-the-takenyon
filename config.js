@@ -14,7 +14,7 @@ let sceneConfig = {
       title: 'たけにょんをみつけよう！',
       targetImage: 'take2-1-03.png',
       imgPosition: '4.5 1 -0.5',
-      rotation: '0 -70 0',
+      rotation: '0 -80 0',
       aspectRatio: '0.6:1' // width:height
     }
   },
@@ -31,7 +31,7 @@ let sceneConfig = {
       title: '女の人にはなしをきいてみよう！',
       targetImage: 'take2-1-44.png',
       imgPosition: '-4 1.3 5',
-      rotation: '0 110 0',
+      rotation: '0 135 0',
       aspectRatio: '0.6:1'
     }
   },
