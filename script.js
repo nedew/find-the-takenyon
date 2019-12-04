@@ -92,6 +92,17 @@ const startGame = () => {
   elmTextArea.setAttribute('material', 'color: black; opacity: 0.6');
   elmTextArea.setAttribute('position', '0 -0.1 -5');
 
+  elmMainText =  document.createElement('a-text');
+  elmMainText.setAttribute('color', 'orange');
+  elmMainText.setAttribute('font', fonts.main);
+  elmMainText.setAttribute('width', '6');
+  elmMainText.setAttribute('negate', 'false');
+  elmMainText.setAttribute('align', 'center');
+  elmMainText.setAttribute('value', 'たけにょんを見つけよう!\n後ろや上にいることも...?');
+  elmMainText.setAttribute('position', '0 0 0.1');
+  // elmMainText.id = 'mission-title';
+  elmTextArea.appendChild(elmMainText);
+
   // 「次へ」ボタン
   // elmNextBtn = document.createElement('a-entity');
   // elmNextBtn.setAttribute('cursor-listener', 'nextScenario()');
@@ -320,16 +331,16 @@ const nextScene = () => {
   
 
 //   // ミッションタイトル
-//   elmMissionTitle =  document.createElement('a-text');
-//   elmMissionTitle.setAttribute('color', 'orange');
-//   elmMissionTitle.setAttribute('font', fonts.main);
-//   elmMissionTitle.setAttribute('width', '7');
-//   elmMissionTitle.setAttribute('negate', 'false');
-//   elmMissionTitle.setAttribute('align', 'center');
-//   elmMissionTitle.setAttribute('value', nowSceneData.mission.title);
-//   elmMissionTitle.setAttribute('position', '0 0 0.1');
-//   elmMissionTitle.id = 'mission-title';
-//   elmTextArea.appendChild(elmMissionTitle);
+  // elmMissionTitle =  document.createElement('a-text');
+  // elmMissionTitle.setAttribute('color', 'orange');
+  // elmMissionTitle.setAttribute('font', fonts.main);
+  // elmMissionTitle.setAttribute('width', '7');
+  // elmMissionTitle.setAttribute('negate', 'false');
+  // elmMissionTitle.setAttribute('align', 'center');
+  // elmMissionTitle.setAttribute('value', nowSceneData.mission.title);
+  // elmMissionTitle.setAttribute('position', '0 0 0.1');
+  // elmMissionTitle.id = 'mission-title';
+  // elmTextArea.appendChild(elmMissionTitle);
 
 //   elmNextBtn.setAttribute('visible', 'false');
 //   elmPersonArea.setAttribute('visible', 'false');

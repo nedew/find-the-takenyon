@@ -31,7 +31,7 @@ let sceneConfig = {
       title: '女の人にはなしをきいてみよう！',
       targetImage: 'take2-1-44.png',
       imgPosition: '-4 1.3 5',
-      rotation: '0 160 0',
+      rotation: '0 140 0',
       aspectRatio: '0.6:1'
     }
   },
@@ -47,7 +47,7 @@ let sceneConfig = {
       title: 'サルをみつけろ！',
       targetImage: 'take2-1-23.png',
       imgPosition: '-4 5 3.8',
-      rotation: '-20 160 0',
+      rotation: '-20 200 0',
       aspectRatio: '0.7:1.18'
     }
   },
