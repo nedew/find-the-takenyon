@@ -125,10 +125,10 @@ const startGame = () => {
   // elmMissionHeadlineText.setAttribute('position', '0 0 0.2');
 
   // ミッションのターゲットになる画像
-  // elmMissionTargetImg = document.createElement('a-image');
-  // elmMissionTargetImg.setAttribute('cursor-listener', 'missionSuccess()');
-  // elmMissionTargetImg.setAttribute('scale', '2 2 2');
-  // elmMissionTargetImg.setAttribute('visible', 'false');
+  elmMissionTargetImg = document.createElement('a-image');
+  elmMissionTargetImg.setAttribute('cursor-listener', 'missionSuccess()');
+  elmMissionTargetImg.setAttribute('scale', '2 2 2');
+  elmMissionTargetImg.setAttribute('visible', 'false');
 
   // 話者の名前を表示する場所
   // elmPersonArea = document.createElement('a-entity');
@@ -194,7 +194,7 @@ const startGame = () => {
   // elmMissionHeadline.appendChild(elmMissionHeadlineText);
   // elmScene.appendChild(elmMissionHeadline);
 
-  // elmScene.appendChild(elmMissionTargetImg);
+  elmScene.appendChild(elmMissionTargetImg);
 
   // elmScene.appendChild(elmPersonArea);
   
@@ -213,25 +213,25 @@ const nextScene = () => {
     return;
   } else {
     nowSceneData = sceneConfig['scene'+nowSceneNum];
-    nowScenarioNum = 0;
+    // nowScenarioNum = 0;
 
     // 背景画像
     elmSky.setAttribute('src', 'images/background/'+nowSceneData.backgroundImage);
-    // ミッション画像
-    elmMissionTargetImg = document.createElement('a-image');
-    elmMissionTargetImg.setAttribute('cursor-listener', 'missionSuccess()');
-    elmMissionTargetImg.setAttribute('scale', '2 2 2');
-    // elmMissionTargetImg.setAttribute('visible', 'false');
+    // // ミッション画像
+    // elmMissionTargetImg = document.createElement('a-image');
+    // elmMissionTargetImg.setAttribute('cursor-listener', 'missionSuccess()');
+    // elmMissionTargetImg.setAttribute('scale', '2 2 2');
+    // // elmMissionTargetImg.setAttribute('visible', 'false');
     elmMissionTargetImg.setAttribute('src', 'images/target/'+nowSceneData.mission.targetImage);
     elmMissionTargetImg.setAttribute('position', nowSceneData.mission.imgPosition);
     elmMissionTargetImg.setAttribute('rotation', nowSceneData.mission.rotation);
-    // アスペクト比
-    const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
-    elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
-    elmMissionTargetImg.setAttribute('height', arrayAspectRatio[1]);
-    // elmMissionTargetImg.setAttribute('visible', 'true');
+    // // アスペクト比
+    // const arrayAspectRatio = nowSceneData.mission.aspectRatio.split(':');
+    // elmMissionTargetImg.setAttribute('width', arrayAspectRatio[0]);
+    // elmMissionTargetImg.setAttribute('height', arrayAspectRatio[1]);
+    elmMissionTargetImg.setAttribute('visible', 'true');
     
-    elmScene.appendChild(elmMissionTargetImg);
+    // elmScene.appendChild(elmMissionTargetImg);
     // nextScenario();
   }
 }
